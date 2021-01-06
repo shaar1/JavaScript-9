@@ -32,8 +32,18 @@ var myName = "Abdallah",
 //document.write("Hello My Name Is " + myName + " And My Age Is " + myAge)
 */
 
+/*
 var myName = "Abdallah",
 
     myAge = 30;
 
-document.getElementByTd("test").innerHTML = "Hello My Name Is " + myName + " And My Age Is " + myAge;
+document.getElementById("test").innerHTML = "Hello My Name Is " + myName + " And My Age Is " + myAge;
+*/
+
+var myName = "Abdallah",
+
+    myAge = 30,
+
+    myDiv = document.getElementById("test");
+
+myDiv.innerHTML = "Hello My Name Is " + myName + " And My Age Is " + myAge;
