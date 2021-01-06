@@ -46,4 +46,6 @@ var myName = "Abdallah",
 
     myDiv = document.getElementById("test");
 
-myDiv.innerHTML = "Hello My Name Is " + myName + " And My Age Is " + myAge;
+//myDiv.innerHTML = "Hello My Name Is " + myName + " And My Age Is " + myAge;
+
+console.log("Hello My Name Is " + myName + " And My Age Is " + myAge);
