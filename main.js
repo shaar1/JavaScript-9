@@ -6,6 +6,7 @@ var x = 1,
 
 alert(x + y);
 */
+
 /*
 var myName = "Abdallah",
 
@@ -13,3 +14,9 @@ myAge = 30;
 
 alert(myName + myAge);
 */
+
+var myName = "Abdallah",
+
+    myAge = 30;
+
+alert("Hello My Name Is " + myName + " And My Age Is " + myAge);
